@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+.cabecalho {
+    display: flex;
+    margin: 2rem;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    min-width: 40px;
+}
+
+.conteudo_principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 3rem;
+}
+
+.sessao_entrada {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+#entrada {
+    font-size: 2.18rem;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+}
+
+::placeholder {
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-size: 2.2rem;
+}
+
+label {
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-size: 1.25rem;
+}
+
+.botoes {
+    display: flex;
+    gap: 5%;
+}
+
+.botaocript {
+    width: 100%;
+    background: #0A3871;
+    border-radius: 0.875rem;
+    border: solid #0A3871 1px;
+    text-align: center;
+    align-items: center;
+    padding: 0.875rem;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.botaodescript {
+    width: 100%;
+    background: #D8DFE8;
+    border-radius: 0.875rem;
+    border: solid #0A3871 1px;
+    text-align: center;
+    align-items: center;
+    padding: 0.875rem;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.sessao_saida {
+    display: flex;
+    width: 50%;
+    height: 944px;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#container_inicial {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 40px;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#container_inicial img {
+    border-radius: 40px;
+    width: 45%;
+}
+
+#container_inicial h1 {
+    color: #343A40;
+    font-size: 1.50rem;
+}
+
+#container_inicial p {
+    color: #495057;
+    font-size: 1.00rem;
+}
+
+#texto {
+    display: inline-block;
+    flex-direction: column;
+}
+
+#saida {
+    width: 100%;
+    text-align: justify;
+    padding-top: 2rem;
+    font-size: 1.90rem;
+    font-family: "Inter", sans-serif;
+    color: #495057;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    margin-bottom: 4rem;
+}
+
+.copiar {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 24px;
+    border: solid #0A3871 1px;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 67px;
+    color: #0A3871;
+    font-size: 1.30rem;
+}
+
+.copiar:hover {
+    color: #fff;
+    background: #0A3871;
+}

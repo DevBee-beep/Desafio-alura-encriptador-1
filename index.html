@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="assets/Logo.png" alt="logo da aluta">
+    </header>
+
+    <main class="conteudo_principal">
+
+        <section class="sessao_entrada">
+            <div class="entrada">
+                <textarea name="entrada_texto" id="entrada" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <label for="">
+                    <img src="./assets/Frame 1.png" alt="exclamação"></label>
+            </div>
+
+            <div class="botoes">
+                <button class="botaocript" onclick="Criptografar()">Criptografar</button>
+                <button class="botaodescript" onclick="Descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="sessao_saida">
+            <div id="container_inicial">
+                <img src="./assets/High quality products 1 1.png" alt="imagem buscar">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="texto">
+                <textarea name="saída" id="saida" cols="25" rows="12" hidden></textarea>
+                <button type="button" class="copiar" id="copiar" onclick="Copiar()" hidden>Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+
+    
+</body>
+</html>
